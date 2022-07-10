@@ -34,21 +34,6 @@ function Footer({}: Props) {
                         <li>الفئه</li>
                         <li>مقاطع فیدیو تعلیمیه</li>
                     </ul>
-                    {/* <div >
-                        <p className={styles.aboutUs}>
-                            هذه هی قطعه اختبار تساعد المصممین و المبرمجین علی استخدام رسائل الاختبار
-                            لاثبات تصامیمهم التی تم اکمالها لصاحب العمل ، و ذلک بااستخدام نص الختبار
-                            هذا الذی یمکن ان یسرع
-                        </p>
-                        <div className={styles.aboutUsMail}>
-                            <p>arabacademy@info.com</p>
-                            <FiMail size={12} color="#11b67a" />
-                        </div>
-                        <div className={styles.aboutUsPhone}>
-                            <p>(+25) 08932-3285</p>
-                            <MdOutlinePhone size={12} color="#11b67a" />
-                        </div>
-                    </div> */}
                     <ul className={styles.column1}>
                         <li className={styles.aboutUs}>
                             هذه هی قطعه اختبار تساعد المصممین و المبرمجین علی استخدام رسائل الاختبار
@@ -66,23 +51,23 @@ function Footer({}: Props) {
                     </ul>
                 </div>
                 <div className={styles.strip}>
-                    <div className={styles.iconsWrapper}>
-                        <div className={styles.icon}>
+                    <ul className={styles.iconsWrapper}>
+                        <li className={styles.icon}>
                             <FaYoutube color="white" size={16} />
-                        </div>
-                        <div className={styles.icon}>
+                        </li>
+                        <li className={styles.icon}>
                             <FaWhatsapp color="white" size={16} />
-                        </div>
-                        <div className={styles.icon}>
+                        </li>
+                        <li className={styles.icon}>
                             <FaInstagram color="white" size={16} />
-                        </div>
-                        <div className={styles.icon}>
+                        </li>
+                        <li className={styles.icon}>
                             <FaFacebook color="white" size={16} />
-                        </div>
-                        <div className={styles.icon}>
+                        </li>
+                        <li className={styles.icon}>
                             <FaTwitter color="white" size={16} />
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                     <div className={styles.stripText}>
                         <p>
                             حقوق النشر &copy; 2021 | الاکادیمیه العربیه مع &#10084;&#65039; الشبکه
