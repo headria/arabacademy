@@ -26,6 +26,11 @@
     align-items: center;
     gap: 5px;
     color: #697486;
+    font-size: 14px;
+    font-weight: 600;
+}
+.active {
+    color: #182b49;
 }
 
 .content {
@@ -39,17 +44,27 @@
     height: 80%;
     border: 1px solid #d6d9dd;
     border-radius: 8px;
-    padding: 20px;
+    padding: 30px;
     margin: 80px 0;
 }
 
-.contentBox h3 {
+.contentBox h3:not(:nth-child(1)) {
     color: #182b49;
+    margin-top: 30px;
 }
 .contentBox p {
     color: #697486;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contentBox ul {
+    padding-inline-start: 16px;
 }
 
 .contentBox li {
     color: #697486;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
