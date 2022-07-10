@@ -33,7 +33,7 @@ function Header({}: Props) {
                     <FcGraduationCap size={38} />
                     <div className={styles.capSectionText}>
                         <span>الاکادامیه </span>
-                        <span> العریبه</span>
+                        <span> العربیه</span>
                     </div>
                 </div>
             </div>
