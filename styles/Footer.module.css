@@ -1,0 +1,138 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #182b49;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+}
+
+.capSection {
+    padding: 12px 0;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.capSectionText :nth-child(1) {
+    color: white;
+    font-weight: 600;
+}
+
+.capSectionText :nth-child(2) {
+    color: #11b67a;
+    font-weight: 600;
+}
+
+.content .column3 {
+    direction: rtl;
+    font-size: 9px;
+    font-weight: 500;
+    width: 30%;
+    color: #babfc8;
+    list-style: none;
+}
+.column3 li {
+    margin-bottom: 4px;
+}
+.column3 :nth-child(1) {
+    color: #11b67a;
+    margin-bottom: 10px;
+}
+
+.content .column2 {
+    direction: rtl;
+    font-size: 9px;
+    font-weight: 500;
+    color: #babfc8;
+    width: 30%;
+    list-style: none;
+}
+.column2 li {
+    margin-bottom: 4px;
+}
+.column2 :nth-child(1) {
+    color: #11b67a;
+    margin-bottom: 10px;
+}
+
+.content .column1 {
+    direction: rtl;
+    list-style: none;
+    font-weight: 500;
+    font-size: 9px;
+    color: #babfc8;
+    width: 40%;
+    padding: 0;
+}
+
+.column1 li {
+    margin-bottom: 8px;
+}
+
+.aboutUs {
+    width: 80%;
+}
+.aboutUsMail {
+    direction: ltr;
+    width: 75%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.aboutUsPhone {
+    direction: ltr;
+    width: 75%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.strip {
+    height: 15%;
+    background-color: #11b67a;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.stripText {
+    color: #cff0e4;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.iconsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    background-color: #009444;
+    width: 28px;
+    height: 28px;
+    margin-left: 8px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
