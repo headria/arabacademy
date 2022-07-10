@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import MasterPage from "../components/MasterPage/MasterPage";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -16,9 +15,7 @@ const Home: NextPage = () => {
             <header>
                 <Header />
             </header>
-            <main className={styles.main}>
-                <MasterPage />
-            </main>
+            <main className={styles.main}>index arab network</main>
             <footer className={styles.footer}>
                 <Footer />
             </footer>

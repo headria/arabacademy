@@ -1,5 +1,5 @@
 .container {
-    width: 100vw;
+    width: 100%;
     padding: 0;
 }
 
@@ -9,6 +9,75 @@
     background-color: #e3efed;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.line1 {
+    height: 160px;
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #11b67a6f;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    top: 0;
+    left: 120px;
+}
+.line2 {
+    height: 110px;
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #11b67a6f;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    top: 0;
+    left: 350px;
+}
+
+.line3 {
+    height: 180px;
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #11b67a6f;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    top: 0;
+    left: 50%;
+}
+.line4 {
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #11b67a6f;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    top: 0;
+    left: 75%;
+}
+.line5 {
+    height: 160px;
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #11b67a6f;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    top: 0;
+    left: 75.2%;
+}
+.line6 {
+    height: 90%;
+    width: 1px;
+    position: absolute;
+    border-right: 1px solid #11b67a6f;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    bottom: 0;
+    left: 90%;
 }
 
 .topRibbonText {
@@ -17,7 +86,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 80%;
+    width: 70%;
 }
 
 .breadcrumbs {
