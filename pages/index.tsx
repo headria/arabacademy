@@ -11,6 +11,7 @@ const Home: NextPage = () => {
                 <title>Arab Academy</title>
                 <meta name="description" content="Arab Academy" />
                 <link rel="icon" href="/favicon.ico" />
+                
             </Head>
             <header>
                 <Header />

@@ -1,0 +1,251 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.peopleSection {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.peopleImages {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.peopleImages > div {
+    width: 19%;
+    height: 380px;
+    gap: 10px;
+}
+
+.peopleImages > div > div {
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.column1 div {
+    height: 220px;
+    margin-top: 25px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.column2 div {
+    height: 160px;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column3 div {
+    height: 320px;
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.column4 div {
+    height: 160px;
+}
+
+.column5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.column5 div {
+    height: 220px;
+    margin-bottom: 25px;
+}
+
+.manSection {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.manImage {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.manImage > div {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 35px -12px;
+    position: relative;
+}
+
+.outerCircle {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: none;
+    border: 1px solid #11b67a52;
+    border-radius: 50%;
+    top: 130px;
+    left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleCircle {
+    width: 85px;
+    height: 85px;
+    background-color: none;
+    border: 1px solid #11b67a52;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCircle {
+    width: 60px;
+    height: 60px;
+    background-color: #11b67a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manSectionContent {
+    direction: rtl;
+    width: 60%;
+    height: 100%;
+}
+
+.manSectionContent h3 {
+    font-size: 1.3rem;
+    color: #182b49;
+}
+
+.manSectionContent p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #babfc8;
+}
+
+.moreBtn {
+    width: 110px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #11b67a;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 40px;
+    font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.achieveBar {
+    width: 75vw;
+    height: 80px;
+    margin: 40px 0;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #11b67a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.icon div {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    line-height: 1.5;
+}
+
+.icon div :nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.icon div :nth-child(2) {
+    color: #d0d5dd;
+}
+
+.ourCourses {
+    width: 75vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ourCoursesWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coursesItem {
+    direction: rtl;
+    width: 30%;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.coursesItem p {
+    font-size: 10px;
+}
+
+.coursesIcon {
+    width: 50px;
+    height: 50px;
+    background-color: #11b67a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.7;
+}
+.coursescontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
